@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <table border="0" align="center">
+            <tr>
+                <td colspan="3" align="center">Form pendaftaran</td>
+            </tr>
+            <tr>
+                <td>NIK</td>
+                <td>:</td>
+                <td><input type="text" name="NIK" placeholder="NIK"</td>
+            </tr>
+            <tr>
+                <td>Nama lengkap</td>
+                <td>:</td>
+                <td><input type="text" name="namalengkap" placeholder="Nama lengkap"</td>
+            </tr>
+            <tr>
+                <td>tanggal lahir</td>
+                <td>:</td>
+                <td><input type="date" name="tgl_lahir"</td>
+            </tr>
+            <tr>
+                <td>email</td>
+                <td>:</td>
+                <td><input type="text" name="email" placeholder="email"</td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td>:</td>
+                <td><input type="password" name="password" placeholder="password"</td>
+            </tr>
+            <tr>
+                <td>Jenis kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="jk" name="jk" value="laki-laki">
+                    <label for="laki-laki">laki-laki</label>
+                    <input type="radio" id="jk" name="jk" value="Perempuan">
+                    <label for="Perempuan">Perempuan</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>agama</td>
+                <td>:</td>
+                <td>
+                    <select name="agama">
+                        <option value="hindu">Hindu</option>
+                        <option value="islam">islam</option>
+                        <option value="buddha">buddha</option>
+                        <option value="kristen">kristen</option>
+                        <option value="katolik">katolik</option>
+                        <option value="konghucu">konghucu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                     <input type="checkbox" id="sepeda" name="sepeda" value="Bersepada">
+                     <label for="sepeda">Bersepada</label><br>
+                     <input type="checkbox" id="sepakbola" name="sepakbola" value="sepakbola">
+                     <label for="sepeda">sepeda</label><br>
+                     <input type="checkbox" id="baca" name="baca" value="baca">
+                     <label for="baca">baca</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>File foto</td>
+                <td>:</td>
+                <td>
+                    <input type="file"
+                    id="avatar" name="avatar"
+                    accept="image/png, image/jpeg">
+                </td>
+                <tr>
+                    <td>mesin pencarian</td>
+                    <td>:</td>
+                    <td><input type="search" name="cari" placeholder="kata pencarian...">
+                        <button>cari</button>
+                    </td>
+            </tr>
+            <tr>
+                <td>input url</td>
+                    <td>:</td>
+                    <td><input type="url" name="url" placeholder="https://"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                    <td>:</td>
+                    <td><textarea rows="5" cols="20" name="alamat"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jumlah Barang Yang dibeli</td>
+                <td>:</td>
+                <td><input type="number" name="number"></td>
+            </tr>
+            <tr>
+                <td align="right"><button>Batal</button></td>
+                <td colspan="2" align="left"><button>kirim</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
